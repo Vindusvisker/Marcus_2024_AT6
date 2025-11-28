@@ -1,0 +1,13 @@
+The UserInputValidator class has a method called validate_positive_integers.
+
+It takes a list of strings and returns only the ones that are positive integers.
+
+It loops through each item, tries to convert it to an int, and if it works
+and the number is greater than 0, it gets added to the result list.
+
+If it cant convert it or its negative/zero, it just skips it.
+
+Example: ["5", "-3", "hello", "10"] would return [5, 10]
+
+There is also a display_validation_message method that prints a message
+when a list has been validated.
